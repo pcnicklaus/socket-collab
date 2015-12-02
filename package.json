@@ -1,13 +1,11 @@
 {
-  "name": "angular-collab-board",
-  "description": "AngularJS Collobaration Board",
-  "version": "0.0.1-1",
-  "private": true,
+  "name": "socket-board",
+  "description": "real time post it note type thing",
+  "version": "0.0.1",
   "dependencies": {
     "express": "3.x",
     "socket.io": "0.9.x"
   },
-  "subdomain": "simpulton.angularjs-collab-board",
   "scripts": {
     "start": "app.js"
   },

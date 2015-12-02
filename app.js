@@ -8,7 +8,10 @@ app.configure(function() {
 });
 
 io.sockets.on('connection', function(socket) {
+	console.log(socket, 'socket', 'firing');
+	console.log(socket.id, "id")
 	socket.on('createNote', function(data) {
+		console.log(data, " data");
 		socket.broadcast.emit('onNoteCreated', data);
 	});
 
